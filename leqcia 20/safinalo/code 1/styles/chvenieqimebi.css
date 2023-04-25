@@ -1,0 +1,355 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 245, 231);
+    background-repeat: no-repeat;
+    overflow-x:hidden;
+}
+
+.main{
+    border-radius: 0 0px 50px 50px;
+    box-shadow: 0px 20px 50px;
+}
+
+/* header */
+.header{
+    display: flex;
+    height: 100px;
+    width: 100%;
+    margin-left: 50px;
+}
+
+/* logo */
+.logo a{
+    display: flex;
+    text-decoration: none;
+}
+
+.logo img{
+    width: 100px;
+    transition: all .3s linear;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+
+.logo h1{
+    margin-top: 35px;
+    margin-left: 10px;
+    color: rgb(69, 194, 231);
+    transition: all .3s linear;
+}
+.logo h1:hover{
+    transform: scale(1.2);
+    color: rgb(37, 70, 179);
+}
+
+
+
+/* --------------------Contact-------------------- */
+.contact{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 15%;   /* შესაცვლელი მაქვს */
+    gap: 50px;
+    justify-content: center;
+}
+
+.contact a{
+    text-decoration: none;
+    color: rgb(69, 194, 231);
+    margin-top: 12px;
+    margin-left: 10px;
+    transition: all .3s linear;
+}
+.contact a:hover{
+    transform: scale(1.1);
+    color: rgb(37, 70, 179);
+}
+
+.contact p{
+    margin-top: -5px;
+    padding: 5px;
+    border-radius: 10px 20px 10px 20px;
+    transition: all .3s linear;
+}
+.contact p:hover{
+    /* background-color: rgb(163, 162, 255); */
+    background-color: rgb(235, 204, 194);
+}
+
+.contact div{
+    display: flex;
+}
+
+.contact img{
+    transition: all .3s linear;
+}
+.contact img:hover{
+    transform: scale(1.1);
+}
+
+
+/* num */
+.num img{
+    width: 40px;
+    height: 40px;
+}
+
+/* email */
+.email img{
+    width: 40px;
+    height: 40px;
+}
+
+/* Address */
+.address img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+/* --------------------------------Nav menu-------------------------------- */
+.nav-menu{
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-menu ul li a{
+    text-decoration: none;
+    color: rgb(69, 194, 231);
+    transition: all .3s linear;
+}
+.nav-menu ul li a:hover{
+    color: rgb(37, 70, 179);
+}
+
+.nav-menu ul li{
+    padding: 5px;
+    border-radius: 10px 20px 10px 20px;
+    transition: all .3s linear;
+}
+.nav-menu ul li:hover{
+    background-color: rgb(235, 204, 194);
+    transform: scale(1.1);
+}
+
+.on-page{
+    background-color: rgb(235, 204, 194);
+    padding: 5px;
+    border-radius: 10px 20px 10px 20px;
+    color: rgb(37, 70, 179);
+}
+
+/* --------------------------------registration------------------------- */
+.registration{
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.registration button{
+    padding: 20px 50px;
+    background-color: rgb(235, 204, 194);
+    border: 0;
+    border-radius: 10px;
+}
+.registration button:hover{
+    border-radius: 0px 20px 0px 20px;
+    transform: scale(1.1);
+}
+
+.registration a button{
+    font-size: 15px;
+    transition: all .3s linear;
+}
+.registration a button:hover{
+    color: rgb(37, 70, 179);
+}
+
+
+/* --------------------content--------------------- */
+.content{
+    margin-top: 50px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+
+/* item */
+.item{
+    width: 400px;
+    height: 550px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    text-align: center;
+    transition: all .3s linear;
+}
+.item:hover{
+    transform: scale(1.05);
+}
+
+/* item img */
+.item img{
+    margin-top: 30px;
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    transition: all .3s linear;
+}
+.item img:hover{
+    border-radius: 0 30px 0 30px;
+    transform: scale(1.05);
+}
+
+
+/* item h3 */
+.item h3{
+    color: rgb(200, 222, 229);
+    font-size: 30px;
+}
+
+.item h4{
+    font-size: 20px;
+    color: rgb(255, 192, 116);
+}
+
+.item p{
+    font-size: 20px;
+    color: rgb(63, 158, 150);
+}
+
+
+
+
+
+
+/* ----------------------Footer--------------------------- */
+.footer{
+    border-radius: 50px 50px 0px 0px;
+    box-shadow: 0px -20px 50px;
+    display: flex;
+    height: 400px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: rgb(6, 33, 118);
+    align-items: center;
+    justify-content: center;
+}
+
+/* footer nav */
+.footer-nav{
+    padding: 100px;
+}
+
+.footer-nav .nav-menu ul{
+    display: block;
+}
+
+/* contact */
+.footer-contact .contact{
+    display: block;
+}
+
+
+/* map */
+.map iframe{
+    margin-left: 50px;
+    width: 500px;
+    height: 200px;
+    border-radius: 50px;
+    transition: all 0.3s linear;
+}
+.map iframe:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ____________________screen______________________________ */
+/* ________________________________________________________ */
+@media (max-width: 1180px) {
+    /* header */
+.header{
+    height: 200px;
+}
+
+.contact{
+    display: block;
+    margin-left: 35%;
+}
+
+.content{
+    grid-template-columns: auto auto;
+}
+
+.item{
+    width: 500px;
+    height: 600px;
+    gap: 10px;
+    /* background-color: rgb(64, 48, 78); */
+}
+
+.item img{
+    height: 200px;
+}
+
+.footer{
+    display: block;
+    height: 800px;
+    text-align: center;
+}
+
+.footer-contact{
+    margin-top: -130px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 50px;
+}
+
+}
+
+
+@media (max-width: 930px) {
+
+    .contact{
+        display: block;
+        margin-left: 20%;
+    }
+
+    .content{
+        grid-template-columns: auto;
+        transition: all .3s linear;
+    }
+
+    .map iframe{
+        margin-left: 50px;
+        width: 400px;
+        height: 200px;
+    }
+
+}

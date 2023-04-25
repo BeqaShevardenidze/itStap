@@ -1,0 +1,14 @@
+.test2{
+    display: flex;
+}
+
+.test{
+    width: 100px;
+    height: 100px;
+    border-radius: 75px;
+    background-color: aqua;
+    margin: 20px;
+}
+.test:hover{
+    background-color: rgb(0, 140, 255);
+}

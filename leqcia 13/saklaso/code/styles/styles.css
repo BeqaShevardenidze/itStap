@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    margin-top: 20px;
+    margin-left: 50px;
+    display: flex;
+}
+
+.logo a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.logo a img{
+    width: 80px;
+}
+
+.logo a h1{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.logo a:hover{
+    color: blue;
+}
+
+
+/* NAV */
+
+.nav{
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.nav a{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+.nav a:hover{
+    color: blueviolet;
+}
+
+/* content */
+
+.content{
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.main{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 100px;
+    background-color: brown;
+}
+
+.main h2{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.main2{
+    margin-top: 100px;
+    margin-left: 100px;
+    width: 500px;
+    height: 100px;
+    background-color: rgb(42, 165, 48);
+}
+
+.main2 h2{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.footer{
+    margin-top: 450px;
+    width: 100%;
+    height: 300px;
+    background-color: cadetblue;
+}
+
+.nav-footer{
+    text-align: center;
+}
+
+.nav-footer a{
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.nav-footer a:hover{
+    color: blueviolet;
+}
+
+.contact{
+    padding: 10px;
+    background-color: tomato;
+}
+
+
+@media screen and (max-width: 600px){
+    .header{
+        margin-top: 20px;
+        margin-left: 20px;
+        display: block;
+    }
+
+    .nav{
+        margin-left: 0px;
+    }
+
+    .nav a{
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .content{
+        display: block;
+    }
+
+    .main{
+        margin-left: 50px;
+    }
+    .main2{
+        margin-left: 50px;
+    }
+
+    .nav-footer a{
+        display: block;
+        margin-top: 20px;
+        margin-left: 50%;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    .content{
+        display: block;
+    }
+}

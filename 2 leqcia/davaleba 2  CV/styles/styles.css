@@ -1,0 +1,81 @@
+.border{
+    border: 4px solid rgb(67, 170, 153);
+}
+
+.photo{
+    width: 250px;
+    height: 200px;
+    float: right;
+    border-radius: 40%;
+
+}
+
+.name{
+    text-align: center;
+    color: rgb(67, 170, 153);
+    font-size: 40px;
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+}
+
+.infotext{
+    font-size:24px
+}
+
+/* -------------------------------------------------------------------- */
+
+
+.icons2{
+    width: 30px;
+    height: 30px;
+}
+
+.infotext2{
+    font-size:30px
+}
+
+li{
+    font-size: 18px;
+    color: rgb(24, 137, 230);
+}
+
+hr{
+    border: 10px solid rgb(67, 170, 153);
+    border-radius: 1px;
+}
+
+/* ------------------------------------------------------------------- */
+
+.button1{
+    /* position:-ms-page;
+    right: 100px;
+    bottom: 10px; */
+    /* bottom: 0%; */
+    float:right;
+    font-size: 20px;
+    background-color: rgb(67, 170, 153);
+    width: 100px;
+    padding: 16px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.button1Background{
+    border: 100px;
+    width: 100%;
+    height: 60px;
+    border-radius: 5%;
+    background-color: rgb(187, 158, 121);
+}
+
+.button2{
+    font-size: 20px;
+    background-color: rgb(170, 67, 72);
+    width: 100px;
+    padding: 16px;
+    width: 200px;
+    border-radius: 50%;
+}

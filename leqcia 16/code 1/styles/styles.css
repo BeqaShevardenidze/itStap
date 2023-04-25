@@ -1,0 +1,43 @@
+.flex{
+    display: flex;
+    border: solid 0.25em #000;
+    width: 60%;
+    height: 8.25em;
+    flex-wrap: wrap;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.row-reverse{
+    flex-direction: column-reverse;
+}
+
+.flex-item{
+    text-align: center;
+    font-size: 1.1em;
+    padding: 1.5em;
+    color: white;
+    opacity: 0.8;
+}
+
+.color1{
+    background-color: yellow;
+}
+
+.color2{
+    background-color: green;
+}
+
+.color3{
+    background-color: blue;
+}
+
+.color4{
+    background-color: red;
+}
+
+.color5{
+    background-color: brown;
+}

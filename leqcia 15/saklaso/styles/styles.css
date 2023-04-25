@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f1b9b9;
+}
+
+.main{
+    border-radius: 20px;
+    width: 401px;
+    height: 838px;
+    background-color: white;
+}
+
+.main-position{
+    position: relative;
+    top: 121px;
+    /* left: 587px; */
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.img img{
+    width: 400px;
+    height: 295;
+}
+
+
+.price p{
+    font-size: 32px;
+    margin-left: 40px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+
+.header h1{
+    margin-left: 40px;
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.text p{
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.text-2 p{
+    margin-top: 5px;
+    margin-left: 40px;
+    color: #666666;
+    font-size: 16px;
+}
+
+.wre{
+    display: flex;
+}
+
+.wre1{
+    border: solid white 4px;
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #ee4444;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+.wre1:hover{
+    border: solid black 4px;
+}
+
+.wre2{
+    border: solid #FFFFFF 4px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: #3C81F6;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+.wre2:hover{
+    border: solid black 4px;
+}
+
+.wre3{
+    border: solid #FFFFFF 4px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+    transition: all .3s linear;
+}
+.wre3:hover{
+    border: solid black 4px;
+}
+
+
+.button-1 button{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 14px 101px 13px 101px;
+    background-color: #FBBF23;
+    border: 0;
+    border-radius: 10px;
+    font-size: 24px;
+    transition: all .3s linear;
+}
+.button-1 button:hover{
+    background-color: #ee4444;
+    color: #FBBF23;
+}
+
+.button-2 button{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding: 14px 114px 13px 110px;
+    border: 1px solid #61A5FA;
+    border-radius: 10px;
+    font-size: 24px;
+    transition: all .3s linear;
+}
+.button-2 button:hover{
+    background-color: #ee4444;
+    color: #FBBF23;
+}
+
+.link{
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.link a{
+    font-size: 14px;
+    color: #61A5FA;
+}

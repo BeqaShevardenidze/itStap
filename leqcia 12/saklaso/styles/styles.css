@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    background-color: rgb(26, 21, 21);
+}
+
+.header{
+    
+}
+
+.icon img{
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+.nav{
+    margin-top: -80px;
+    margin-left: 50px;
+}
+
+.nav ul li{
+    list-style: none;
+    display: inline;
+    margin-left: 50px;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 25px;
+
+    transition: color 1s linear;
+}
+
+.nav ul li a:hover{
+    color: brown;
+}
+
+.main{
+    margin-top: 100px;
+}
+
+.main h1{
+    text-align: center;
+    color: bisque;
+    font-size: 70px;
+}
+.main p{
+    text-align: center;
+    color:cadetblue;
+    font-size: 30px;
+}
+
+.baner img{
+    height: 74vh;
+}
+
+.footer {
+    margin-top: 200px;
+    height: 250px;
+    background-color: black;
+}
+
+.footer p{
+    text-align: center;
+}
+
+.footer p a{
+    text-decoration: none;
+    color: burlywood;
+    font-size: 60px;
+}

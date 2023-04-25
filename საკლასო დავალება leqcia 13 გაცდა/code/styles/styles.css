@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+}
+
+.navbar1 ul{
+    display: flex;
+    background-color: black;
+    color: antiquewhite;
+    font-size: 30px;
+    padding: 10px 0 10px 20px;
+}
+
+.navbar1 ul li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+.navbar1 ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navbar1 ul li a:hover{
+    color: rgb(240, 173, 85);
+}
+
+
+/* __________________navbar2_______________________ */
+
+.navbar2 ul{
+    display: flex;
+    background-color: rgb(47, 105, 212);
+    color: antiquewhite;
+    font-size: 30px;
+    padding: 10px 0 10px 20px;
+}
+
+.navbar2 ul li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+.navbar2 ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navbar2 ul li a:hover{
+    color: rgb(240, 138, 6);
+}
+
+/* __________________navbar3_______________________ */
+
+.navbar3 ul{
+    display: flex;
+    background-color: rgb(206, 210, 218);
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 10px 0 10px 20px;
+}
+
+.navbar3 ul li{
+    margin-left: 50px;
+    list-style: none;
+}
+
+.navbar3 ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(139, 136, 132);
+}
+
+.navbar3 ul li a:hover{
+    color: rgb(240, 138, 6);
+}
+
+.menu li ul{
+    margin-left: -70px;
+    display: none;
+
+    transition: 0.3s linear;
+}
+
+.menu li:hover ul{
+    display: block;
+}
+
+
+
+
+

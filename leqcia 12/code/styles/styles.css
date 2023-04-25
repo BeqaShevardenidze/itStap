@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+
+/* 1 */
+span{
+    color: red;
+}
+
+.Blockspan{
+    display: block;
+    background-color: aqua;
+}
+
+/* 2 */
+.inline1{
+    display: inline;
+    background-color: aquamarine;
+}
+
+/* 3 */
+span{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.inlineBlockspan{
+    display: inline-block;
+}
+
+/* 4 */
+
+/* ul{
+    display: table;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    display: table-cell;
+    padding: 10px;
+    border: 1px solid black;
+} */
+
+/* 5  damalva*/
+.invisible{
+    display: none;
+}
+
+/* 6 */
+
+ul.nav{
+    margin-left: 0px;
+    padding-left: 0px;
+    list-style: none;
+    /* display: flex; */
+}
+
+.nav li{
+    /* float: left; */
+    display: inline;
+}
+
+ul.nav a{
+    display:inline-block;
+    width: 7em;
+    padding: 10px;
+    margin: 1px;
+    background-color: antiquewhite;
+    border: 1px dashed #333;
+    text-align: center;
+    text-decoration: none;
+    /* border-top: 1px dashed #333;
+    border-right: 1px dashed #333;
+    border-left: 1px dashed #333;
+    text-decoration: none;
+    color: #333; */
+}
+
+ul.nav a:hover{
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+ul.nav li:last-child a{
+    border-bottom: 1px dashed black;
+}

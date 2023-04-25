@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* _______________header______________ */
+.header{
+    display: flex;
+}
+
+
+/* Logo */
+.logo{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.logo img{
+    width: 80px;
+}
+
+
+/* Link */
+.link{
+    margin-top: 56px;
+    margin-left: 10px;
+}
+
+.link a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    color: rgb(0, 102, 218);
+    transition: all .3s linear;
+}.link a:hover{
+    color: rgb(33, 172, 153);
+}
+
+/* Menu */
+.menu{
+    margin-top: 60px;
+}
+
+.menu ul{
+    list-style:none;
+    display: flex;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: rgb(0, 102, 218);
+    margin-left: 50px;
+    font-size: 20px;
+    transition: all .3s linear;
+}.menu ul a:hover{
+    color: rgb(33, 172, 153);
+}
+
+
+/* Search */
+.search{
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+.search a img{
+    width: 30px;
+}
+
+
+/* language */
+.language a img{
+    width: 30px;
+}
+
+.language{
+    margin-top: 75px;
+    margin-left: 75px;
+}
+
+
+
+
+/* _______________________________________________ */
+.button{
+    margin-top: 100px;
+    margin-left: 30px;
+
+    width: 100px;
+    height: 50px;
+    background-color: blueviolet;
+    text-align: center;
+    border-radius: 10px;
+    transition: all .3s linear;
+}
+.button:hover{
+    border-radius: 10px 30px 10px 30px;
+}

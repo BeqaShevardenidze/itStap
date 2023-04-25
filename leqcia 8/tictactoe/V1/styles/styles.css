@@ -1,0 +1,33 @@
+.header{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+td{
+    padding: 50px;
+}
+
+.border2{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.border4{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.border5{
+    border: 1px solid black;
+}
+
+.border6{
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.border8{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}

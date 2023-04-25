@@ -1,0 +1,37 @@
+body,h2,p{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-size: 18px;
+}
+
+.header {
+    background-color: #eee;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+}
+.wrapper{
+    background-color: #ddd;
+}
+.menu {
+    background-color: #ddd;
+    float:left;
+    width: 150px;
+}
+.main {
+    background-color: #f7f7f7;
+    border-left: 150px;
+    margin-left: 150px;
+    padding: 15px;
+}
+.footer {
+    background-color: #eee;
+    text-align: center;
+}

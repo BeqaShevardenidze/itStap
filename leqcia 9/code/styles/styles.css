@@ -1,0 +1,36 @@
+
+#left{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    float: left;
+}
+.left-text{
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+#right{
+    background-color: rgb(79, 110, 110);
+    width: 100px;
+    height: 100px;
+    float: right;
+}
+
+.right-text{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+#center{
+    background-color: aquamarine;
+    height: 100px;
+}
+
+.center-text{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+}

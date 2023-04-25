@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>საშინაო დავალება | ლექცია 23</title>
+</head>
+<body>
+    
+
+    <div class="amocana4.1">
+        <h3>დავალება 4.1</h3>
+        <ul>
+            <li>
+                შექმენით მასივი ნებისმიერი ტიპის და რაოდენობის ელემენტებით. ეკრანზე გამოიტანეთ ამ მასივის სიგრძე.
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = [1, 2, 3, "ოთხი", "ხუთი"]; 
+                    <br>
+                    alert(arr.length);
+                </p>
+            </div>
+            <button onclick="f41()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="amocana4.2">
+        <h3>დავალება 4.2</h3>
+        <ul>
+            <li>
+                მოცემულია მასივი arr. ინდექსის გამოყენებით მასივს დაამატეთ ახალი ელემენტი 'd', ხოლო რიგით მეორე
+                ელემენტი ჩაანაცვლეთ 'x'-ით.
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = ['a', 'b', 'c']; <br>
+                    arr[3] = 'd'; <br>
+                    arr[2] = 'x'; <br>
+                    alert(arr); <br>
+                </p>
+            </div>
+            <button onclick="f42()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="amocana4.3">
+        <h3>დავალება 4.3</h3>
+        <ul>
+            <li>
+                მოცემულია ცარიელი მასივი arr. მეთოდი .push-ის გამოყენებით მასივს დაამატეთ ახალი ელემენტები 'a', 'b'
+                და 'c'.
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = []; <br>
+                    arr.push('a', 'b', 'c'); <br>
+                    alert("V1 arr = " + arr); <br> <br>
+                    
+                    arr.push(1,2); <br>
+                    alert("V2 arr = " + arr); <br> <br>
+
+                    alert(typeof arr); <br>
+                </p>
+            </div>
+            <button onclick="f43()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="amocana4.4">
+        <h3>დავალება 4.4</h3>
+        <ul>
+            <li>
+                მოცემულია მასივი arr და ცვლადები key1, key2.
+                key1-ის ინდექსის მქონე მასივის ელემენტს მიუმატეთ key2 ინდექსის მასივის ელემნტი და შედეგი კონსოლზე გამოიტანეთ.
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = [1, 2, 3, 4, 5], key1 = 1, key2 = 2; <br>
+                    alert("V1 = " + parseInt(arr[key1] + arr[key2])); <br> <br>
+                    
+                    arr.push(6,7,8); <br>
+                    arr.unshift(-1,0); <br>
+                    alert("V2 = " + arr); <br>
+                </p>
+            </div>
+            <button onclick="f44()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="amocana4.5">
+        <h3>დავალება 4.5</h3>
+        <ul>
+            <li>
+                მოცემულია მასივი arr. ოპერატორი delete-ით წაშალეთ მასივის რიგით მე-2 და მე-4 ელემენტები. კონსოლზე
+                გამოიტანეთ ჯერ მასივის სიგრძე და მერე თვით ეს მასივიც. შეიცვალა თუ არა მასივის სიგრძე?
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = ['a', 'b', 'c', 'd', 'e']; <br>
+                    delete arr[2]; <br>
+                    delete arr[4]; <br>
+                    alert(arr); <br>
+                </p>
+            </div>
+            <button onclick="f45()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="amocana4.6">
+        <h3>დავალება 4.6</h3>
+        <ul>
+            <li>
+                მოცემულია კოდი, რომელმაც კონსოლზე უნდა გამოიტანოს მასივის ბოლო ელემნტი. აღმოაჩინეთ შეცდომა
+                კოდში.
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = [11, 22, 33, 44, 55]; <br>
+                    alert(arr[arr.length - 1]); <br>
+                </p>
+            </div>
+            <button onclick="f46()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="amocana4.7">
+        <h3>დავალება 4.7</h3>
+        <ul>
+            <li>
+                მოცემულია კოდი, რომელმაც კონსოლზე უნდა გამოიტანოს მასივის სიგრძე. აღმოაჩინეთ შეცდომა კოდში
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = [10, 11, 12, 13, 14]; <br>
+                    alert(arr.length);
+                </p>
+            </div>
+            <button onclick="f47()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+    <div class="amocana4.8">
+        <h3>დავალება 4.8</h3>
+        <ul>
+            <li>
+                მოცემულია კოდი, რომელმაც კონსოლზე უნდა გამოიტანოს მასივის სიგრძე. აღმოაჩინეთ შეცდომა კოდში.
+            </li>
+            <div class="pasuxi">
+                <p>
+                    let arr = [10, 11, 12, 13, 14]; <br>
+                    alert(arr.length);
+                </p>
+            </div>
+            <button onclick="f48()">პასუხი</button>
+        </ul>
+    </div>
+
+    <hr>
+
+
+    <button onclick="Visible()">PDF ფაილის გამოჩენა</button>
+
+    <iframe id="test" src="pdf/4.19] JS საშინ.დ.მასივები.pdf" frameborder="0"></iframe>
+
+    <script src="js/js.js"></script>
+</body>
+</html>

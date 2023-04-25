@@ -1,0 +1,38 @@
+div{
+    margin: 10px;
+    border: 1px solid black;
+    font-size: 20px;
+    height: 80px;
+}
+
+#header{
+    background-color: blue;
+}
+#sidebarmarjvena{
+    background-color: blue;
+    float: right;
+    width: 150px;
+}
+#sidebarmarcxena{
+    background-color: blue;
+    float: left;
+    width: 150px;
+}
+#main{
+    background-color: aqua;
+    height: 200px;
+    margin-right: 170px;
+    margin-left: 170px;
+}
+#footer{
+    background-color: blueviolet;
+}
+
+img{
+    /* border-radius: 50%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

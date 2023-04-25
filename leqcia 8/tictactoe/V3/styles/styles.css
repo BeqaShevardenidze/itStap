@@ -1,0 +1,11 @@
+.header{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+
+td{
+    background-color: aliceblue;
+    padding: 50px;
+    border: 1px solid black;
+}

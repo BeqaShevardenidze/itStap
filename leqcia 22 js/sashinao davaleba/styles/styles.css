@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(19, 19, 63);
+}
+
+iframe{
+    width: 1000px;
+    height: 1000px;
+    border-radius: 20px;
+}

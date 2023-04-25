@@ -1,0 +1,57 @@
+.main_background{
+    background-color:  #1d2329;
+    color: antiquewhite;
+    display: block;
+}
+
+.logo{
+    position: absolute;
+    top: -20px;
+    left: 0%;
+    background-color: rgb(6, 48, 48);
+    height: 12%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reg_position{
+    background-color: rgb(6, 48, 48);
+    color: black;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 32%;
+    border-radius: 50px;
+    height: 300px;
+    width: 600px;
+}
+
+.meil{
+    height: 40px;
+    width: 487px;
+    border-radius: 30px;
+    border-color: rgb(1, 255, 255);
+}
+::placeholder{
+    text-align: center;
+}
+
+.button_send{
+    height: 40px;
+    background-color: greenyellow;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.button_login_pos{
+    position: absolute;
+    left: 90%;
+    top: 4%;
+}
+
+.button_login_style{
+    background-color: greenyellow;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+}

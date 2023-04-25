@@ -1,0 +1,86 @@
+.satauri{
+  text-align: center;
+  font-size: 50px;
+  color: green;
+  background-color: black;
+}
+
+.icons{
+  width: 100px;
+  display: block;
+  /* margin-left:89%; */
+  float: right;
+  display: inline-block;
+}
+
+.icons-2{
+  width: 100px;
+  display: block;
+  display: inline-block;
+}
+
+/* ----------------------------------------- */
+                    /* მეორე გვერდი */
+/* დეფაულთ დაშორებებს შლის */
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+/* კონტეინერის ზომას რომ არ დაემატოს ჩარჩოს ზომა */
+*{
+  box-sizing: border-box;
+}
+
+.gcolor{
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 20px 30px 40px 60px; /*  ჩარჩო  */
+  display: inline-block;  /*  გვერდიგვერდ ალაგებს  */
+  color: white; /*  ტექსტის ფერი  */
+  padding: 20px; /* ტექსტის დაშორება */
+}
+
+.rcolor{
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 20px 30px 40px 60px;/*  ჩარჩო  */
+  display: inline-block;/*  გვერდიგვერდ ალაგებს  */
+  color: white; /*  ტექსტის ფერი  */
+  padding: 20px; /* ტექსტის დაშორება */
+}
+
+.bcolor{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 20px 30px 40px 60px; /*  ჩარჩო  */
+  display: inline-block;/*  გვერდიგვერდ ალაგებს  */
+  color: white; /*  ტექსტის ფერი  */
+  padding: 20px; /* ტექსტის დაშორება */
+}
+
+
+/* ------------------------------------------------ */
+
+                        /* მესამე გვერდი */
+.main{
+  /* background-color: green; */
+  width: 100%;
+  height: 100px;
+}
+
+.logo{
+  width: 218px;
+  display: inline-block;  /*  გვერდიგვერდ ალაგებს  */
+}
+
+.menu{
+  display:inline-block; /*  გვერდიგვერდ ალაგებს  */
+}
+
+.dashoreba{
+  margin-left: 100px;
+}

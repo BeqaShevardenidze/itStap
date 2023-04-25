@@ -1,0 +1,18 @@
+body{
+    font-size: 30px;
+    color: green;
+    overflow: hidden;
+}
+
+/* 3 4 */
+/* #rect{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+} */
+
+#blueStep{
+    width: 10px;
+    height: 10px;
+    background-color: blue;
+}

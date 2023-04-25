@@ -1,0 +1,166 @@
+body,head{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+/* .main{
+} */
+
+/* __________Header_________________________ */
+
+.header{
+    background-color: beige;
+    height: 100px;
+    display: flex;
+    border-radius: 0px 0px 10px 10px ;
+}
+
+/* icon */
+.icon a img{
+    width: 100px;
+}
+
+/* link */
+.link{
+    margin-top: 25px;
+    margin-left: 20px;
+}
+.link a{
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Nav bar */
+.nav-bar{
+    margin-top: 20px;
+}
+
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+
+.nav-bar ul a{
+    padding: 10px 30px 10px 30px;
+    border: 0;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: all .3s linear;
+    border-radius: 20px;
+}
+.nav-bar ul a:hover{
+    background-color: blueviolet;
+    border-radius: 20px;
+    color:antiquewhite;
+}
+
+/* grid */
+.grid{
+    margin-left: 10px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 10px;
+}
+
+/* nav */
+.nav{
+    /* border: 1px solid black; */
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: rgb(243, 248, 169);
+}
+
+/* .content{
+    border: 1px solid black;
+    border-radius: 10px;
+} */
+
+/* .nav-header{
+
+} */
+
+/* .nav{
+    visibility: hidden;
+}
+.nav:hover{
+    visibility:visible;
+} */
+
+.nav-header p{
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(93, 20, 161);
+    border-radius: 10px;
+    color: rgb(255, 186, 95);
+}
+
+.nav ul{
+    list-style: none;
+    padding:10px;
+}
+
+.nav ul li{
+    margin-bottom: 30px;
+}
+
+.nav-content ul a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    transition: all .3s linear;
+}
+.nav-content ul a:hover{
+    background-color: blueviolet;
+    color: antiquewhite;
+}
+
+/* content */
+.content{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.item{
+    margin: 10px 0 0 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+.item img{
+    margin-top: 10px;
+    width: 250px;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border-radius: 20px;
+}
+
+.item h3{
+    text-align: center;
+}
+
+.item article p{
+    text-align: center;
+}
+
+
+
+/* Foooterrrrtttt */
+
+.footer{
+    background-color: aliceblue;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.footer p{
+    padding-top: 80px;
+    text-align: center;
+}

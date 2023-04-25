@@ -1,0 +1,100 @@
+.border1{
+    border: 3px solid black; /* ჩარჩო + შავი ფერი */
+}
+
+/* თავსართი */
+.border2{
+    border: 3px solid black; 
+    background-color:#cccccc
+}
+
+/* წარწერა პრაქტიკული დავალება */
+.InCenter {
+    text-align: center; 
+}
+
+.https{
+    vertical-align: top;
+    width: 30%;
+    height: 25px;
+    border: 3px solid black;
+}
+
+.search{
+    vertical-align: top;
+    width: 10%;
+    height: 33px;
+    border: 3px solid black;
+}
+
+
+/* რეგისტრაციის ფორმის პოზიცია */
+.reg{
+    /* background-color: aqua; */
+    margin-inline-start: 150%;
+    width: 400px;
+    height: 450px;
+}
+
+.contact
+{
+    /* background-color: red; */
+    font-size: 70px;
+    margin-inline-start: 20%;
+}
+
+.sizename{
+    border: 3px solid black;
+    margin-inline-start: 20%;
+    width: 100px;
+    height: 25px;
+}
+
+.sizelastname{
+    border: 3px solid black;
+    margin-inline-start: 15px;
+    width: 150px;
+    height: 25px;
+}
+
+.sizeemail{
+    border: 3px solid black;
+    margin-inline-start: 20%;
+    width: 277px;
+    height: 25px;
+}
+
+.sizemessage{
+    border: 3px solid black;
+    margin-inline-start: 20%;
+    width: 277px;
+    height: 130px;
+}
+
+.sizesubmit{
+    margin-inline-start: 20%;
+    border: 3px solid black;
+    width: 70px;
+    height: 30px;
+}
+
+.positionmap{
+    /* margin-inline-start: 27%; */
+    width: 150px;
+    height: 150px;
+    /* background-color: aqua; */
+    margin: 20px 15%;
+    display: inline-block;
+}
+.sizemap{
+    margin-inline-start: 20%;
+    width: 500px;
+    height: 450px;
+    
+}
+
+.border3{
+    border: 3px solid black; 
+    background-color:#cccccc;
+    height: 30px;
+}

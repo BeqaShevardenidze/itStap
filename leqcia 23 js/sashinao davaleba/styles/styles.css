@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(24, 53, 51);
+    color: bisque;
+}
+
+h3{
+    text-align: center;
+}
+
+button{
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 900;
+    background-color: rgb(125, 141, 187);
+    color: rgb(240, 242, 255);
+    border: 0px;
+    transition: all .3s linear;
+}
+button:hover{
+    background-color: rgb(165, 165, 165);
+    color: rgb(8, 8, 8);
+}
+
+.pasuxi{
+    width: 500px;
+    margin-top: 20px;
+    background-color: black;
+    margin-left: 20%;
+    padding-left: 20%;
+    border-radius: 20px;
+    font-size: 20px;
+    color: rgb(17, 148, 0);
+    border: 1px solid beige;
+}
+
+iframe{
+    width: 100%;
+    height: 1000px;
+    visibility: hidden;
+}

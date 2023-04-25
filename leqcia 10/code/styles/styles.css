@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(34, 25, 25);
+}
+.main{
+    text-align: center;
+}
+
+
+.user-input1{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-top: 200px;
+    margin-bottom: 10px;
+}
+
+.user-input2{
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.button-style1{
+    background-color: brown;
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.button-style2{
+    background-color: rgb(42, 165, 69);
+    border: 0px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+}

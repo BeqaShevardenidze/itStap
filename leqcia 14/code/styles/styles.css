@@ -1,0 +1,36 @@
+.grid-con{
+    border: solid 2px #000;
+    /* display: inline-grid; */
+    display: grid;
+    grid-template-columns: 8em auto auto;
+    grid-template-rows: auto 4em auto;
+}
+
+
+.grid-item{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.1em;
+    padding: 1.5em;
+    color: aliceblue;
+}
+
+.color1{
+    background-color: red;
+}
+
+.color2{
+    background-color: blue;
+}
+
+.color3{
+    background-color: red;
+}
+
+.color4{
+    background-color: blue;
+}
+
+.color5{
+    background-color: red;
+}
